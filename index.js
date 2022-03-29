@@ -20,7 +20,7 @@ export default class ThemeSettings extends Theme {
        * The posibilities are endless, the rest is on you.
        */
 
-      const background = this.settings.get('bgUrl', 'https://media.wtf/12931870');
+      const background = this.settings.get('bg-url', 'https://media.wtf/12931870');
       const style = Style.replace('REPLACE_BG_URL', background);
 
       super.start(style);

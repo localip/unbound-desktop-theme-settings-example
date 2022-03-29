@@ -7,9 +7,9 @@ export default class extends React.Component {
 
       return <TextInput
          title='Background Image URL'
-         onChange={v => settings.set('bgUrl', v)}
+         onChange={v => settings.set('bg-url', v)}
          description='The background to use accross the app.'
-         value={settings.get('bgUrl')}
+         value={settings.get('bg-url', 'https://media.wtf/12931870')}
       />;
    }
 };
