@@ -1,0 +1,10 @@
+:root {
+   --bg-url: url(REPLACE_BG_URL);
+}
+
+body {
+   opacity: 0.90;
+   background-image: var(--bg-url);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
