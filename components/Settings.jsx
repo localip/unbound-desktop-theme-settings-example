@@ -36,7 +36,7 @@ export default class extends React.Component {
     */
 
    getPresets() {
-      const presets = fs.readdirSync(path.resolve(__dirname, 'presets'));
+      const presets = fs.readdirSync(path.resolve(__dirname, '..', 'presets'));
       const items = [];
 
       for (let i = 0; i < presets.length; i++) {
